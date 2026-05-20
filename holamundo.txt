@@ -1,1 +1,5 @@
 Hola mundo, este es mi primer archivo de GitHub.
+
+Proyecto de prueba de Kukuchka Agustín. 
+Este es mi primer proyecto en GitHub para la clase  
+Año: 2026.
