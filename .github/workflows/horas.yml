@@ -18,8 +18,7 @@ jobs:
       - name: Crear archivo con horas (CD) 
         run: | 
           echo "Hora UTC: $(date -u)" > horas.txt 
-          echo "Hora Argentina: 
-    $(TZ=America/Argentina/Buenos_Aires date)" >> horas.txt 
+          echo "Hora Argentina: $(TZ=America/Argentina/Buenos_Aires date)" >> horas.txt 
  
       - name: Guardar artefacto (CD) 
       uses: actions/upload-artifact@v4 
